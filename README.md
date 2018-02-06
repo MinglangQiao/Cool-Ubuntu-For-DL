@@ -18,6 +18,15 @@ And note that using wget to download things you need from a command line would b
 
 ## Driver and Cuda installation
 * Personally, install cude.deb directly is the best choice and it install drivers automatically. CUDA [official download site](https://developer.nvidia.com/cuda-downloads).
+
+first download diriver from: www.nvidia.com/drivers
+then:
+```
+# cd yourdirectory
+# sh NVIDIA-Linux-x86_64-390.25.run
+```
+second:download the CUDA Toolkit [CUDA Toolkit](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1604&target_type=deblocal).
+
 * If above fails, install nvidia driver from the ubuntu 'additional drivers' (type win and search 'additional drivers', you will see it).
 * If still fails, install driver with a run file from [official Nvidia Driver site](http://www.nvidia.com/Download/index.aspx?).
 * Note that block third-party drivers should not be a hard request from above procedure.
